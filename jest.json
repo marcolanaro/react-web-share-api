@@ -1,0 +1,14 @@
+{
+  "transform": {
+    ".(ts|tsx)": "ts-jest/preprocessor.js"
+  },
+  "moduleFileExtensions": [
+    "ts",
+    "tsx",
+    "js"
+  ],
+  "testRegex": "./src/.*\\.test\\.(ts|tsx|js)$",
+  "collectCoverage": true,
+  "collectCoverageFrom": ["src/webShare.tsx"],
+  "mapCoverage": true
+}
