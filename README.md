@@ -5,8 +5,20 @@
   <strong>
     <a href="https://facebook.github.io/react/">React</a> high order component to drive <a href="https://github.com/WICG/web-share">web share</a> widget on react applications 📌.
   </strong>
+  <br><br>
+  <a href="https://npmjs.com/package/react-web-share-api">
+    <img src="https://img.shields.io/npm/v/react-web-share-api.svg">
+  </a>
+  <a href="https://github.com/marcolanaro/react-web-share-api/blob/master/LICENSE.md">
+    <img src="https://img.shields.io/github/license/marcolanaro/react-web-share-api.svg">
+  </a>
+  <img src="https://img.shields.io/travis/marcolanaro/react-web-share-api.svg">
+  <img src="http://img.badgesize.io/https://unpkg.com/react-web-share-api/dist/react-web-share-api.min.js?compression=gzip&label=gzip%20size">
+  <img src="http://img.badgesize.io/https://unpkg.com/react-web-share-api/dist/react-web-share-api.min.js?label=size">
+  <a href="https://npmjs.com/package/react-web-share-api">
+    <img src="https://img.shields.io/npm/dm/react-web-share-api.svg">
+  </a>
 </p>
-
 
 ## Browser support
 
