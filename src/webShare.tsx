@@ -6,11 +6,10 @@ import {
   WebShareInterface,
 } from './types';
 
-export const share = (config: WebShareConfig) => () => {
+export const share = (config: WebShareConfig) => () =>
   (navigator as any).share(config.params) // tslint:disable-line:no-any
     .then(config.onShareSuccess)
     .catch(config.onShareError);
-};
 
 const paymentRequest = <TProps extends object>() => (
   // tslint:disable-next-line:no-any
