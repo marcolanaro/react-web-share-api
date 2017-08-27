@@ -1,5 +1,6 @@
 {
   "name": "react-web-share-api-example-basic",
+  "homepage": "https://lanaro.net/react-web-share-api",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,14 +10,17 @@
     "@types/react-dom": "^15.5.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
-    "react-web-share-api": "^0.0.1"
+    "react-web-share-api": "^0.0.2"
   },
   "devDependencies": {
+    "gh-pages": "^1.0.0",
     "react-scripts-ts": "2.2.0"
   },
   "scripts": {
     "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
-    "eject": "react-scripts-ts eject"
+    "eject": "react-scripts-ts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   }
 }
