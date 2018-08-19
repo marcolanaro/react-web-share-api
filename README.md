@@ -22,7 +22,7 @@
 
 ## Browser support
 
-[Web Sahre api](https://developers.google.com/web/updates/2016/10/navigator-share) is supported on Chrome for Android and Android Webview v. ^55.0.
+[Web Share api](https://developers.google.com/web/updates/2016/10/navigator-share) is supported on Chrome for Android and Android Webview v. ^55.0.
 
 ## Demo
 
@@ -36,7 +36,7 @@ npm install react-web-share-api --save
 
 ## Usage
 
-Consume the UI component in the hight order component `button.js`:
+Consume the UI component in the higher order component `button.js`:
 
 ```js
 import React from "react";
@@ -49,7 +49,7 @@ const Button = ({ share, isSupported }) => isSupported
 export default webShare<OwnProps>()(Button);
 ```
 
-Pass the configuration to the high order component `smartComponent.js`:
+Pass the configuration to the higher order component `smartComponent.js`:
 
 ```js
 import React from "react";
